@@ -10,7 +10,7 @@ public class Animals
         System.out.println("Животное прыгнуло в высоту на " + height);
 
     }
-    public void swim(int distance)
+    private void swim(int distance)
     {
         System.out.println("Животное проплыло "+distance+" метров");
 
