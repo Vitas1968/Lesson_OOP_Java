@@ -28,14 +28,20 @@ public class TestCode
         } else
         {
             Cat cat = new Cat();
-            Dog dog=new Dog();
-            cat.run(160); // true
-            cat.swim(10); //false
-            cat.jump(3); //false
 
-            dog.swim(50); //false
-            dog.run(499); // true
-            dog.jump(0.7); //false
+
+            cat.run(160); 
+            cat.swim(10);
+            cat.jump(3);
+
+
+            Dog dog1=new Dog();
+            dog1.run(500);
+
+            Dog dog=new Dog();
+            dog.swim(50);
+            dog.run(499);
+            dog.jump(0.7);
 
         }
 
