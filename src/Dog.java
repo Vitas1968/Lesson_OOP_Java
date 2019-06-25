@@ -2,9 +2,9 @@ import java.util.Random;
 
 public class Dog extends Animals
 {
-    int maxRun;
-    static final double maxJump = 0.5;
-    static final int maxSwim = 10;
+    //int maxRun;
+   // static final double maxJump = 0.5;
+    //static final int maxSwim = 10;
 
     public Dog()
     {
@@ -20,6 +20,8 @@ public class Dog extends Animals
             i += min;
             maxRun = i;
         }
+        maxJump = 0.5;
+        maxSwim = 10;
     }
     @Override
     public void run(int distance)

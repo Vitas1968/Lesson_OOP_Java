@@ -1,5 +1,9 @@
 public class Animals
 {
+    int maxRun;
+    double maxJump;
+    int maxSwim;
+    
     public void run(int distance)
     {
         System.out.println("Животное пробежало "+distance+" метров");

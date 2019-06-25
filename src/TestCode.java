@@ -30,7 +30,7 @@ public class TestCode
             Cat cat = new Cat();
 
 
-            cat.run(160); 
+            cat.run(160);
             cat.swim(10);
             cat.jump(3);
 
